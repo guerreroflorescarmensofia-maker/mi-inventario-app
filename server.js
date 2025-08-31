@@ -8,7 +8,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-const MONGODB_URI = 'mongodb+srv://guerreroflorescarmensofia_db_user:U2J8HUc5m1o7nee4@groflo.ysyzpq2.mongodb.net/?retryWrites=true&w=majority&appName=GROFLO';
+const MONGODB_URI = 'mongodb+srv://guerreroflorescarmensofia_db_user:P2AAPC4uDvazfXLJ@groflo.ysyzpq2.mongodb.net/?retryWrites=true&w=majority&appName=GROFLO';
 const jwtSecret = 'mi_clave_secreta_super_segura';
 
 app.use(express.json());
