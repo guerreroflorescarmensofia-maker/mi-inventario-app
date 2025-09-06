@@ -516,7 +516,7 @@
                 console.error('Error al cargar el reporte de ganancias:', error);
                 reporteDiv.innerHTML = '<p class="text-danger text-center">Error al cargar el reporte de ganancias.</p>';
             }
-        }
+        });
         
         async function mostrarHistorialVentas(filtro = '') {
             const historialDiv = document.getElementById('historial-ventas');
@@ -581,7 +581,7 @@
                     alert('Hubo un error al intentar eliminar la venta.');
                 }
             }
-        });
+        }
 
         document.getElementById('borrarHistorialBtn').addEventListener('click', async () => {
             if (confirm('¿Estás seguro de que quieres borrar todo el historial de ventas? Esta acción es irreversible.')) {
